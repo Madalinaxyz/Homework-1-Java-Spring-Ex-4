@@ -6,8 +6,12 @@ spring:
   profiles: dev
 debug: true
 
+feed:
+  filename: demo.feed
+
 ---
 
 spring:
   profiles: prod
 debug: false
+
